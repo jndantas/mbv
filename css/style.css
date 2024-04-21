@@ -493,6 +493,14 @@ button {
 
 }
 
+.bg-image-section {
+    background-image: url('../images/image-section.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 100px 0; 
+}
+
 .about_text {
     width: 100%;
     float: left;
@@ -501,29 +509,63 @@ button {
     margin: 0px;
 }
 
-.readmore_btn {
-    width: 170px;
-    float: left;
-    margin-top: 40px;
-}
+/*---------------------
+  Newslatter Section
+-----------------------*/
 
-.readmore_btn a {
+.image-inner {
     width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #096627;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: 1px solid #096627;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+    height: 400px;
+    padding: 60px 70px 48px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
 }
 
-.readmore_btn a:hover {
-    color: #4a4949;
-    border: 1px solid #4a4949;
+.image-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 130, 54, 0.5); 
+    border-radius: 20px;
 }
+
+.image-inner .ni-text {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    font-family:'Roboto', sans-serif;
+
+}
+
+.image-inner .ni-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.6875rem;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.image-inner .ni-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+
+
+
 
 
 /* about section end */
