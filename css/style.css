@@ -483,6 +483,10 @@ button {
     width: 100%;
 }
 
+.image_iman{
+    max-width: 400px;
+}
+
 .about_taital_1 {
     width: 100%;
     float: left;
@@ -572,23 +576,46 @@ button {
 
 /* coffee section start */
 
-.coffee_section {
+.mbv_section {
     width: 100%;
     float: left;
 }
 
-.coffee_taital {
+.mbv_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;;
     color: #3b3b3b;
-    text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     padding-bottom: 0px;
 }
 
-.coffee_section_2 {
+.mbv_taital_links {
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;;
+    color: #128236;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.mbv_taital_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;;
+    color: #737373;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+
+.mbv_section_2 {
     width: 90%;
     margin: 0 auto;
     text-align: center;
