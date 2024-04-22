@@ -84,7 +84,9 @@ $(function () {
 		items: 5,
 		loop: true,
 		autoplay: true,
-		margin: 30,
+		margin:10,
+		nav:false,
+		center:true,
 		responsive:{
 			0:{
 				items:1,

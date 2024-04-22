@@ -589,7 +589,7 @@ button {
 .image-inner .ni-text p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.80rem;
     color: #ffffff;
     margin-bottom: 0;
 }
@@ -922,9 +922,27 @@ button {
     text-align: center;
     text-transform: uppercase;
 }
+.owl-carousel .owl-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-logo-item {
+    text-align: center;
+}
+
+.single-logo-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 .logo-carousel-section {
-    background-color: #f5f5f5;
+    background-color: #1e763b;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
 .contact_section_2 {
