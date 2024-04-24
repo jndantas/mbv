@@ -205,6 +205,24 @@ button {
     padding: 0px;
 }
 
+.fertilizantes{
+    min-width: 550px;
+}
+
+@media (max-width: 575px) {
+.banner_taital_2 {
+    width: 100%  !important;
+    font-size: 30px  !important;
+    margin-top: 20px ;
+    line-height: 50px !important;
+}
+.images-home-banner{
+    display: none!important;
+}
+.fertilizantes{
+    min-width: 100%!important;
+}
+}
 
 /* header section start */
 
@@ -541,7 +559,7 @@ button {
 
 .image-inner {
     width: 100%;
-    height: 400px;
+    min-height: 400px;
     padding: 60px 70px 48px;
     overflow: hidden;
     border-radius: 20px;
